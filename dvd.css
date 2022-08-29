@@ -6,64 +6,6 @@
             padding: 0;
         }
 
-        @-webkit-keyframes hit-corner {
-            0% {
-                left: 0%;
-                top: 0%;
-                background-color: #00F;
-            }
-
-            19% {
-                left: calc(100% - 130px);
-                top: calc(100% - 88px);
-                background-color: #0F0;
-            }
-
-            19.1% {
-                background-color: #00F;
-            }
-
-            33% {
-                left: calc(50% - 65px);
-                top: calc(0%);
-                background-color: #F00;
-            }
-
-            48% {
-                left: calc(0%);
-                top: calc(100% - 88px);
-                background-color: #0F0;
-            }
-
-            48.1% {
-                background-color: #F00;
-            }
-
-            67% {
-                background-color: #00F;
-                left: calc(100% - 130px);
-                top: calc(0%);
-
-            }
-
-            67.1% {
-                background-color: #0F0;
-            }
-
-            86% {
-                left: calc(50% - 44px);
-                top: calc(100% - 88px);
-                background-color: #00F;
-            }
-
-
-            100% {
-                left: 0%;
-                top: 0%;
-                background-color: #F00;
-            }
-        }
-
         @keyframes hit-corner {
             0% {
                 left: 0%;
